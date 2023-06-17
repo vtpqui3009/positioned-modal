@@ -1,0 +1,27 @@
+.modal {
+  height: fit-content;
+  max-width: 15rem;
+  background-color: #fff;
+  border-radius: 5px;
+  position: relative;
+  display: none;
+  z-index: 10;
+}
+.modal::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 15px solid #fff;
+  position: absolute;
+  top: 45%;
+  right: -15px;
+}
+.modal-title {
+  border-bottom: 1px solid gray;
+  padding: 20px;
+}
+.modal-desc {
+  padding: 20px;
+}

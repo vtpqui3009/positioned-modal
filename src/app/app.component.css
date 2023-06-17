@@ -1,0 +1,10 @@
+.filter {
+  margin-top: 20vh;
+  width: 20rem;
+  height: 80vh;
+  position: relative;
+  padding-right: 20px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  z-index: 0;
+}
